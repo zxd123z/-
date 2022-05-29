@@ -1,0 +1,96 @@
+.all{
+    width: 1800px;
+    height: 900px;
+    margin: 0 auto;
+    /* border: 1px solid orange; */
+    background-image: url(../imgs/duiwubg.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.head{
+    /* border: 1px solid orange; */
+    width: 1800px;
+    height: 100px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(69, 72, 252, 0.87);
+    font-weight: 900;
+    text-shadow:-2px -2px 0 rgba(15, 15, 240, 0.473);
+}
+
+.tu{
+    /* border: 1px solid orange; */
+    width: 1450px;
+    height: 200px;
+    margin: 0 auto;
+    margin-left: 260px;
+}
+
+.t1,.t2,.t3{
+    width: 450px;
+    height: 50px;
+    font-size: 80px;
+    color: rgba(69, 72, 252, 0.87);
+    font-weight: 900;
+    text-shadow:-3px -3px 0 rgba(15, 15, 240, 0.473);
+    /* border: 1px solid orange; */
+    float: left;
+    padding-top: 150px;
+    text-align: center;
+    
+}
+.t2,.t3{
+    margin-left:50px ;
+}
+.introduce{
+    width: 1450px;
+    height: 400px;
+    margin: 0 auto;
+    margin-left: 260px;
+
+}
+.int1,.int2,.int3{
+    font-style: "幼圆";
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-indent: 47px;
+    width: 410px;
+    height: 330px;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 5%;
+    float: left;
+    background-color: rgba(235, 217, 63, 0.808);
+    position: relative;
+    z-index: -2;
+}
+.int2,.int3{
+    margin-left:45px;
+}
+
+.fanhui{
+    width: 1500px;
+    height: 120px;
+    /* border: 1px solid rgba(255, 0, 0, 0.678); */
+    margin: 0 auto;
+    text-align:center;
+}
+#fh{
+    width: 140px; 
+    height: 40px;
+    border: 2px solid rgba(255, 0, 0, 0.699);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "幼圆";
+    color:whitesmoke;
+    background-color: rgba(255, 0, 0, 0.712);
+    border-radius: 0.8em;
+    margin-top: 40px;
+    margin-left: 1360px;
+}
+#fh:hover{
+    width: 150px; 
+    height: 50px;
+}

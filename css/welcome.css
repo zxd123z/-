@@ -1,0 +1,55 @@
+*{margin: 0 auto;padding: 0;}
+.all{
+    width: 1580px;
+    height: 900px;
+    
+    font-family: "幼圆";
+}
+.left{
+    line-height: 40px;
+    width: 600px;
+    height: 500px;
+    padding:150px 90px;
+   
+    float: left;
+}
+.right{
+        width: 650px;
+        height: 600px;
+        margin-left: 50px;
+        margin-top: 30px;
+        padding:100px 0;
+        float: left;
+}
+.right img:hover{
+    width: 670px;
+
+}
+.btn1{
+    width: 130px; 
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.btn2{
+    width: 100px; 
+    height: 30px;
+    border: 2px ;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: "幼圆";
+    color:whitesmoke;
+    border-radius: 0.8em;
+    margin-top: 50px;
+}
+.btn2:hover{
+    width: 105px;
+    height: 35px; 
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+

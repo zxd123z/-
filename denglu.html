@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/denglu.css">
+    <style>
+       
+        </style>
+       </head>
+       <body>
+        <div class="all">
+            <div class="all2">
+                <h1>欢迎登陆</h1>
+                <div class="form">
+                    <form action="">
+                        <table>
+                            <tr>
+                                <td> Your TrueName:</td>
+                                <td> <input type="text" id="name" name="name"><br></td>
+                            </tr>
+                            <tr>
+                                <td> Your&nbsp; PassWord:</td>
+                                <td> <input type="password" id="pwd" name="pwd"></td>
+                            </tr>
+                            <tr>
+                                <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADDRESS:</td>
+                                <td> 
+                                    <select id="country" name="country">
+                                        <option value="1">China</option>
+                                        <option value="2">China</option>
+                                        <option value="3">USA</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                
+                                <td colspan="2" style="text-align: center; vertical-align: middle;text-decoration: none;">
+                                    <a href="homepage.html">
+                                        <button class="submit" type="submit" value="">登陆
+                                        </a> 
+                                </td>
+                                
+                            </tr>
+                    </table>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+    <script>
+        window.onload = function(){
+    var img1 = document.getElementById('img1');
+    var onOff = true;//创造一个开关,布尔值，true为1，false为0
+
+    img1.onclick = function(){
+        if(onOff){//如果是真
+            img1.src = './imgs/合照.jpg';//图片路径切换为图片2
+            onOff = false;//并且开关设为假
+        }else{//如果是假
+            img1.src = './imgs/head.png';//图片路径切换为图片1
+            onOff = true;//并且开关设为真
+        }
+    }
+}
+
+   </script>
+</body>
+</html>

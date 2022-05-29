@@ -1,0 +1,196 @@
+*{margin: 0 auto;padding: 0;}
+#all{
+    width: 1500px;
+    height: 1910px;
+    border: 1px solid #f5f2f03d;
+    border-top: 0px;
+    font-family: "幼圆";
+  background-image: url("../imgs/bg.jpg");
+   
+}
+#head{
+    width: 1500px;
+    height: 680px;
+    border: 1px solid rgba(248, 248, 248, 0.938);
+    background-image: url("../imgs/hometu.png");
+
+}
+#logo{
+    font-family: "幼圆";
+    font-size: 40px;
+    /* color: #ec801b; */
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 620px;
+}
+#nav{
+    width: 900px;
+    height: 45px;
+    /* border: 0px solid rgba(8, 250, 20, 0.938); */
+
+}
+.nav1{
+    text-align: center;
+    width: 500px;
+    list-style: none;
+}
+.nav1 li{
+   line-height: 45px;
+    font-size: 20px;
+    font-family: "幼圆";
+    font-weight: 600;
+    height: 43px;
+    width: 98px;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 20, 20);
+}
+
+.nav1 li:hover {
+    background-color:#ffd000c7;
+    border: 1px solid #f00;
+    border-radius: 0.6em; 
+} 
+#author{
+    width: 900px;
+    height: 270px;
+    /* border: 1px solid rgba(8, 250, 20, 0.938); */
+}
+#author .content{
+        float: left;
+        width: 318px;
+        height: 230px;
+        padding: 20px;
+        text-indent: 2.2em;
+        line-height: 30px;
+        font-weight: 700;
+        /* border: 1px solid rgba(8, 250, 20, 0.938); */
+
+}
+#author .picture{
+        float: left;
+        width: 178px;
+        height: 250px;
+        margin-top: 20px;
+        /* background-image: url(../imgs/authorpicture.jpg); */
+        background-repeat: no-repeat;
+        /* border: 1px solid rgba(8, 250, 20, 0.938); */
+}
+#author .picture img:hover{
+    width: 190px;
+    height: 250px;
+    overflow: hidden;
+   
+}
+#person{
+    width: 900px;
+    height: 440px;
+    border-bottom: 1px dashed rgba(250, 214, 8, 0.788);
+    /* border: 1px solid rgba(8, 250, 20, 0.938); */
+}
+#person .person1{
+    margin-top: 50px;
+        list-style: none;
+        width: 900px;
+        height: 410px;
+        
+
+}
+#person .person1 img:hover{
+    width: 220px;
+    overflow: hidden;
+}
+#person .person1 li{
+        font-family: "幼圆";
+        font-weight: 600;
+        float: left;
+        width: 210px;
+        height: 420px;
+     
+ 
+}
+#person .person1 li div{
+    padding-top: 10px;
+     font-size: 15px;
+     text-indent: 30px;
+     line-height: 25px;
+     color: #272323;
+}
+#person .person1 .p2{
+        margin-left: 20px;
+}
+#cartoon{
+    width: 900px;
+    height: 325px;
+    border-bottom: 1px dashed #eecc4e;
+}
+
+
+.cartoon-left{
+        width: 440px;
+        height: 325px;
+        margin-right: 20px;
+        float: left;
+}
+.cartoontop img:hover{
+    width:100px;
+    height: 100px;
+    overflow: hidden;
+}
+.cartoon-right{
+        width: 440px;
+        height: 325px;
+        float: left;
+    }
+.cartoon-right img:hover{
+        width:100px;
+        height: 100px;
+        overflow: hidden;
+    }
+.cartoon-right ul{
+    width: 440px;
+    list-style: none;
+} 
+.cartoon-right li{
+    float: left;
+    width: 90px;
+    height: 100px;
+    padding:30px 10px 20px;
+} 
+.cartoontop{
+    width: 440px;
+    height: 100px;
+    margin-top: 30px;
+}
+    
+.qingzi{
+
+    text-indent: 1.5em;
+    margin-left: 10px;
+    line-height: 25px;
+    width: 300px;
+    float: right;
+}
+.font{
+    font-family: "幼圆";
+    font-weight: 600;
+    color: #272323;
+}
+#foot{
+    width: 840px;
+    height: 1px;
+    padding:30px;
+   
+}
+.foot-left{
+    letter-spacing: 8px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.foot-right{
+   margin-top: 20px;
+   margin-right: 20px;
+    float: right;
+}
